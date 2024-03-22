@@ -10,10 +10,13 @@
 
     <link rel="icon" href="assets\img\assets\img\pro.-png.png" type="image/png" sizes="16x16">
 
-    <!-- font awesome link icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- font awesome link icons -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
 
     <title>Promunim</title>
     <meta name="description"
@@ -1366,12 +1369,12 @@
     }
     
     a {
-        color: #b5181b;
+        color: #fff;
         text-decoration: none
     }
     
     a:hover {
-        color: #8e111c
+        color: #fff;
     }
     
     ul:last-child {
@@ -3182,7 +3185,7 @@
     [image-overlay]:before {
         position: absolute;
         content: '';
-        background: linear-gradient(100deg,#39b54a, #034206) !important;
+        background: linear-gradient(100deg,#3bb161, #0A5386) !important;
         width: 100%;
         height: 100%;
         top: 0;
@@ -3330,7 +3333,7 @@
     
     .hero-slider-content h1 {
         font-weight: 600;
-        font-size: 46px
+        font-size: 59.4px
     }
     
     .cardheight {
@@ -3367,19 +3370,19 @@
     }
     
     .primary-bg {
-        background: #39b54a !important
+        background: #3bb162 !important
     }
     
     .secondary-bg {
-        background: #39b54a !important
+        background: #3bb162 !important
     }
     
     .accent-bg {
-        background: #39b54a !important
+        background: #3bb162 !important
     }
     
     .gradient-bg {
-        background: linear-gradient(100deg,#39b54a, #034206) !important
+        background: linear-gradient(100deg,#3bb162, #0A5386) !important
     }
     
     .mfp-bg {
@@ -4135,6 +4138,10 @@
     .img-fluid {
         max-width: 100%;
         height: auto;
+    }
+    .img-fluid-2 {
+        max-width: 185%;
+        height: 480px;
     }
     
     .img-thumbnail {
@@ -9674,7 +9681,7 @@
     }
     
     .affix {
-        background: linear-gradient(75deg, #39b54a, #034206) !important;
+        background: linear-gradient(100deg, #3bb161, #0A5386) !important;
         -webkit-transition: padding .4s ease-out;
         transition: padding .4s ease-out
     }
@@ -9803,7 +9810,7 @@
         }
     
         .section-heading h2 {
-            font-size: 22px
+            font-size: 36px
         }
     
         .cardheight {
@@ -9920,7 +9927,7 @@
         height: auto;
         border: none;
         border-radius: 30px;
-        background-color: #39b54a;
+        background-color: #0A5386;
         display: inline-block;
         color: #fff;
         padding-left: 30px;
@@ -10122,46 +10129,131 @@
     }
     
     .btn-brand-02 {
-        background-color: #39b54a;
+        background-color: #004c8f;
         border-color: #fff;
-        color: #fff
+        color: #fff;
+        transition: border-radius 0.3s; /* Add transition for smooth effect */
     }
     
     .btn-brand-02:hover,
     .btn-brand-02:focus {
-        background-color: #1399f6;
-        border-color: #1399f6;
-        color: #fff
+        background-color: #004c8f;
+        border-color: #004c8f;
+        color: #fff;
+        transition: border-radius 0.3s; /* Add transition for smooth effect */
+
+
+    }
+    .btn1-02 {
+        background-color: #004c8f;
+        border-color: #fff;
+        color: #fff;
+        transition: border-radius 0.3s; /* Add transition for smooth effect */
+        border-radius: 10px; 
+        padding:20px 50px;
+    }
+    
+    .btn1-02:hover,
+    .btn1-02:focus {
+        background-color: #004c8f;
+        border-color: #004c8f;
+        color: #fff;
+        transition: border-radius 0.3s; /* Add transition for smooth effect */
+
+
     }
     
     .btn-brand-02.btn-transparent {
         background-color: rgba(150, 41, 230, .6);
         border-color: transparent;
-        color: #fff
+        color: #fff;
+        transition: border-radius 0.3s; /* Add transition for smooth effect */
+
     }
     
     .btn-brand-02.btn-transparent:hover,
     .btn-brand-02.btn-transparent:focus {
-        background-color: rgba(150, 41, 230, .9)
+        background-color: rgba(150, 41, 230, .9);
+        transition: border-radius 0.3s; /* Add transition for smooth effect */
+
     }
+    
+    .btnr{
+        border-radius: 40px; 
+        padding:20px 50px;
+        background-color: #004c8f;
+        border-color: #fff;
+        color: #fff;
+        transition: border-radius 0.3s; /* Add transition for smooth effect */
+    }
+    .btn-btnr:hover,
+    .btn-btnr:focus {
+        background-color: #004c8f;
+        border-color: #004c8f;
+        color: #fff;
+        transition: border-radius 0.3s; /* Add transition for smooth effect */
+
+
+    }
+    .btnr-1{
+        border-radius: 40px; 
+        padding:20px 50px;
+        background-color: #3bb161;
+        border-color: #fff;
+        color: #fff;
+        transition: border-radius 0.3s; /* Add transition for smooth effect */
+    }
+    .btn-btnr-1:hover,
+    .btn-btnr-1:focus {
+        background-color: #004c8f;
+        border-color: #004c8f;
+        color: #fff;
+        transition: border-radius 0.3s; /* Add transition for smooth effect */
+
+
+    }
+    .btn-12{
+        border-radius: 10px; 
+        padding:20px 70px;
+        background-color: #3bb161;
+        border-color: #fff;
+        color: #fff;
+        transition: border-radius 0.3s; /* Add transition for smooth effect */
+    }
+    .btn-12:hover,
+    .btn-12:focus {
+        background-color: #3bb161;
+        border-color:#3bb161;
+        color: #fff;
+        transition: border-radius 0.3s; /* Add transition for smooth effect */
+
+
+    }
+
     
     .btn-brand-03 {
         background-color: #e91d23;
         border-color: #e91d23;
-        color: #fff
+        color: #fff;
+        border-radius: 40px;
+        transition: border-radius 1s; /* Add transition for smooth effect */
+
     }
     
     .btn-brand-03:hover,
     .btn-brand-03:focus {
         background-color: #9300a9;
         border-color: #9300a9;
-        color: #fff
+        color: #fff;
+        transition: border-radius 0.3s; /* Add transition for smooth effect */
+        border-radius: 0; /* Set initial border-radius */
     }
     
     .btn-brand-03.btn-transparent {
         background-color: rgba(191, 0, 220, .6);
         border-color: transparent;
-        color: #fff
+        color: #fff;
+        
     }
     
     .btn-brand-03.btn-transparent:hover,
@@ -10183,21 +10275,23 @@
     }
     
     .btn-outline-brand-02 {
-        border-color: #8e111c;
-        color: #8e111c
+        border-color: #004c8f;
+        color: #004c8f;
+        border-radius: 40px; 
+        padding:11px 50px;
     }
     
     .btn-outline-brand-02:hover,
     .btn-outline-brand-02:focus,
     .btn-outline-brand-02:active {
-        background-color: #39b54a;
-        border-color: #39b54a;
-        color: #fff
+        background-color: #ffffff;
+        border-color: #004c8f;
+        color: #004c8f;
     }
     
     .btn-outline-brand-03 {
         border-color: #e91d23;
-        color: #e91d23
+        color: #e91d23;
     }
     
     .btn-outline-brand-03:hover,
@@ -10205,7 +10299,7 @@
     .btn-outline-brand-03:active {
         background-color: #9300a9;
         border-color: #9300a9;
-        color: #fff
+        color: #fff;
     }
     
     .btn-uppercase {
@@ -10213,13 +10307,13 @@
         font-size: 12px;
         font-weight: 600;
         letter-spacing: .5px;
-        line-height: 1.75
+        line-height: 1.75;
     }
     
     .btn-uppercase.btn-sm,
     .btn-group-sm>.btn-uppercase.btn {
         font-size: 11px;
-        line-height: 1.773
+        line-height: 1.773;
     }
     
     .btn-uppercase.btn-xs {
@@ -10891,6 +10985,7 @@
         opacity: .9
     }
     
+    
     .facebook-color {
         color: #4064ac
     }
@@ -10962,6 +11057,14 @@
         background: #0077b5;
         color: #fff
     }
+    .icon-size {
+    height: 24px; /* Adjust the height as needed */
+    width: 24px; /* Adjust the width as needed */
+}
+
+
+
+
     
     .icon-btn {
         padding-left: 4.57142857em
@@ -11429,7 +11532,7 @@
     }
     
     .social-list-default li:not(.bg-brand-01):not(.bg-brand-02):not(.bg-brand-03) a {
-        color: #696969
+        color: #fff
     }
     
     .social-list-default li:not(:hover) {
@@ -11621,62 +11724,59 @@
     }
     
     .social-hover-2 li:hover a.facebook {
-        background: #4064ac;
+        background: #3bb161;
         color: #fff !important
     }
     
     .social-hover-2 li:hover a.twitter {
-        background: #00a7e6;
+        background: #3bb161;
         color: #fff !important
     }
     
     .social-hover-2 li:hover a.google {
-        background: #dd4b39;
+        background: #3bb161;
         color: #fff !important
     }
     
     .social-hover-2 li:hover a.dribbble {
-        background: #ea4c89;
+        background: #3bb161;
         color: #fff !important
     }
     
     .social-hover-2 li:hover a.vk {
-        background: #45668e;
+        background: #3bb161;
         color: #fff !important
     }
     
-    .social-hover-2 li:hover a.linkedin {
-        background: #0077b5;
-        color: #fff !important
-    }
+   
     
     .social-hover-2 li:hover a.instagram {
-        background: #c13584;
+        background: #3bb161;
         color: #fff !important
     }
     
     .social-hover-2 li:hover a.tumblr {
-        background: #35465c;
+        background: #3bb161;
         color: #fff !important
     }
     
     .social-hover-2 li:hover a.flickr {
-        background: #0063dc;
+        background: #3bb161;
         color: #fff !important
     }
     
     .social-hover-2 li:hover a.youtube {
-        background: red;
+        background: #3bb161;
         color: #fff !important
     }
     
     .social-hover-2 li:hover a.rss {
-        background: #f26522;
+        background: #3bb161;
         color: #fff !important
     }
     
     .social-hover-2 li:hover a.reddit {
-        background: #ff4500;
+        background: #3bb161;
         color: #fff !important
     }
     
@@ -11725,20 +11825,10 @@
         color: #fff !important
     }
     
-    .background-color.social-hover-2 li a.facebook {
-        background: #4064ac;
-        color: #fff !important
-    }
+
     
-    .background-color.social-hover-2 li a.twitter {
-        background: #00a7e6;
-        color: #fff !important
-    }
-    
-    .background-color.social-hover-2 li a.google {
-        background: #dd4b39;
-        color: #fff !important
-    }
+ 
+
     
     .background-color.social-hover-2 li a.dribbble {
         background: #ea4c89;
@@ -11750,15 +11840,9 @@
         color: #fff !important
     }
     
-    .background-color.social-hover-2 li a.linkedin {
-        background: #0077b5;
-        color: #fff !important
-    }
+
     
-    .background-color.social-hover-2 li a.instagram {
-        background: #c13584;
-        color: #fff !important
-    }
+
     
     .background-color.social-hover-2 li a.tumblr {
         background: #35465c;
@@ -11770,10 +11854,6 @@
         color: #fff !important
     }
     
-    .background-color.social-hover-2 li a.youtube {
-        background: red;
-        color: #fff !important
-    }
     
     .background-color.social-hover-2 li a.rss {
         background: #f26522;
@@ -12723,8 +12803,8 @@
     .single-promo-card.single-promo-hover:hover {
         -webkit-transform: translateY(-10px);
         transform: translateY(-10px);
-        -webkit-box-shadow: 0 1rem 3rem #39b54a;
-        box-shadow: 0 1rem 3rem #39b54a;
+        -webkit-box-shadow: 0 1rem 3rem #3bb161;
+        box-shadow: 0 1rem 3rem #3bb161;
         color: #fff;
     }
     
@@ -12741,7 +12821,7 @@
         width: 100%;
         height: 100%;
         border-radius: 0;
-        background-color:#39b54a;
+        background-color:#3bb161;
     }
     
     .single-promo-card.single-promo-hover:before {
@@ -12752,7 +12832,7 @@
         height: 95px;
         bottom: -50px;
         border-radius: 35px;
-        background-color: #39b54a;
+        background-color: #3bb161;
         -webkit-transition: all .3s;
         transition: all .3s;
         z-index: -1
@@ -12768,21 +12848,21 @@
         transform: translateY(-10px);
         -webkit-box-shadow: 0 1rem 3rem rgba(31, 45, 61, .125);
         box-shadow: 0 1rem 3rem rgba(31, 45, 61, .125);
-        background-color: #39b54a;
+        background-color: #3bb161;
         color: #fff
     }
     
     .single-promo-card.single-promo-hover-2:hover span,
     .single-promo-card.single-promo-hover-2:hover h5 {
         color: #fff !important;
-        background-color: #39b54a;
+        background-color: #3bb161;
     }
     
     .single-promo-card:hover {
         -webkit-transform: translateY(-10px);
         transform: translateY(-10px);
-        -webkit-box-shadow: 0 1rem 3rem #39b54a;
-        box-shadow: 0 1rem 3rem #39b54a;
+        -webkit-box-shadow: 0 1rem 3rem #3bb161;
+        box-shadow: 0 1rem 3rem #3bb161;
     }
     
     .check-list-wrap {
@@ -13242,7 +13322,7 @@
     }
     
     .dot-indicator.owl-theme button.owl-dot.active span {
-        background: #e91d23;
+        background: #004c8f;
         border: 2px solid transparent;
         -webkit-transform: scale(.8);
         transform: scale(.8)
@@ -14239,7 +14319,7 @@
         font-weight: 600;
         font-size: 12px;
         margin: 0;
-        color: #788487
+        color: #788487;
     }
     
     .widget ul {
@@ -14525,7 +14605,7 @@
         }
     
         .social-login-signup li a.btn {
-            margin-bottom: 5px
+            margin-bottom: 5px;
         }
     }
     
@@ -17097,7 +17177,7 @@
     .mx-auto {
         margin-right: auto !important
     }
-    
+  
     .mb-auto,
     .my-auto {
         margin-bottom: auto !important
@@ -19123,9 +19203,7 @@
         color: #000
     }
     
-    .social-list-default i {
-        margin-top: 8px
-    }
+    
     
     .button-2 {
         color: #fff;
@@ -19134,14 +19212,14 @@
         background-repeat: no-repeat;
         background-position: 0%;
         -webkit-transition: background 300ms ease-in-out;
-        transition: background 300ms ease-in-out
+        transition: background 300ms ease-in-out;
     }
     
     .button-2:hover {
         background-position: 100%;
         color: #c266d3;
-        background-image: -webkit-linear-gradient(30deg, #c40821 50%, transparent 50%);
-        background-image: linear-gradient(30deg, #c00820 50%, transparent 50%)
+        background-image: -webkit-linear-gradient(30deg, #3bb161 50%, transparent 50%);
+        background-image: linear-gradient(30deg, #3bb161 50%, transparent 50%)
     }
     
     .button-2 {
@@ -19149,7 +19227,7 @@
     }
     
     .top-bar-header {
-        background: #39b54a;
+        background: #3bb161;
         padding: 6px 0;
         margin-bottom: 0;
         line-height: 1px
@@ -19161,19 +19239,13 @@
         color: #fff
     }
     
-    .social-list-default i {
-        margin-top: 8px;
-        color: #fff
-    }
+   
     
     .list-inline {
         font-size: 14px
     }
     
-    li.list-inline-item i {
-        color: #fff;
-        font-size: 14px
-    }
+   
     
     .fixed-top {
         top: 33px;
@@ -19210,19 +19282,7 @@
         font-size: 12px
     }
     
-    .social-list-default-1 li a {
-        display: block;
-        text-align: center;
-        -webkit-transition: all .3s ease-out;
-        transition: all .3s ease-out;
-        position: relative;
-        overflow: hidden;
-        height: 21px;
-        width: 21px;
-        line-height: 29px;
-        border-radius: 2px;
-        font-size: 6px
-    }
+  
     .col-md-7 h2 {
             margin-bottom: .938rem;
             font-family: montserrat, sans-serif;
@@ -19350,7 +19410,7 @@
         -webkit-box-shadow: 0 3px 20px 0 rgb(0 0 0/12%);
         box-shadow: 0 3px 20px 0 rgb(0 0 0/12%);
         border-radius: 4px 4px 0 0;
-        background: linear-gradient(75deg, #c51b1b, #34001d) !important;
+        background: linear-gradient(75deg, #3bb161, #34001d) !important;
         margin-bottom: 0;
         border: 1px solid rgba(72, 94, 144, .16)
     }
@@ -19373,7 +19433,7 @@
     }
     
     .card-body.main-card {
-        background: linear-gradient(75deg, #c51b1b, #34001d) !important;
+        background: linear-gradient(75deg, #3bb161, #34001d) !important;
         min-height: 184px
     }
     
@@ -19757,6 +19817,24 @@
         bottom: 10px;
         background-color: #f8bb86
     }
+    .card-body h3{
+        font-size: 21px;
+    }
+    
+.section-heading h3 {
+    font-size: 36px;
+
+}
+.text-center h5 {
+    font-size: 21px;
+}
+.feature-contents h5 {
+    font-size: 21px;
+
+}
+.section-heading h2 {
+    font-size: 36px;
+}
     
     .sweet-alert .sa-icon.sa-info {
         border-color: #c9dae1
@@ -20723,28 +20801,27 @@
                     <div class="col-md-6">
                         <div class="list-inline social-list-default-1 background-color social-hover-2 pull-right">
                             <li class="list-inline-item">
-                                <a target="_blank" class="google" href="https://www.google.com/maps/place/ProMunim+of+India,+Pune/@18.5033237,73.9541545,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc2c20dfbd727bf:0x52ae5b3904e5a85f!8m2!3d18.5033237!4d73.9541545!16s%2Fg%2F1q6j4gv96?hl=en-US&entry=ttu"><i
-                                        class="fab fa-google"></i></a>
-                            </li>
+                                <a target="_blank" class="google" href="https://www.google.com/maps/place/ProMunim+of+India,+Pune/@18.5033237,73.9541545,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc2c20dfbd727bf:0x52ae5b3904e5a85f!8m2!3d18.5033237!4d73.9541545!16s%2Fg%2F1q6j4gv96?hl=en-US&entry=ttu">
+                            <img src="Group 1.png" alt="Google Icon" class="icon-size"> <!-- Replace YOUR_IMAGE_URL with the actual URL of your image -->
+                                                                                                                                    </a>
+                                                                                    </li>
                             <li class="list-inline-item">
-                                <a target="_blank" class="youtube" href="https://www.youtube.com/channel/UCouPKU1gIzpwV6eQLKdrwAw"><i
-                                        class="fab fa-youtube"></i></a>
-                            </li>
+                                <a target="_blank" class="google" href="https://www.google.com/maps/place/ProMunim+of+India,+Pune/@18.5033237,73.9541545,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc2c20dfbd727bf:0x52ae5b3904e5a85f!8m2!3d18.5033237!4d73.9541545!16s%2Fg%2F1q6j4gv96?hl=en-US&entry=ttu">
+                            <img src="Group2.png" alt="Google Icon" class="icon-size"> <!-- Replace YOUR_IMAGE_URL with the actual URL of your image -->
+                                                                                                                                    </a>
+                                                                                    </li>
                             <li class="list-inline-item">
-                                <a target="_blank" class="facebook" href="https://www.facebook.com/ProMunim.of.India/"><i
-                                        class="fab fa-facebook-square"></i></a>
-                            </li>
+                                <a target="_blank" class="google" href="https://www.google.com/maps/place/ProMunim+of+India,+Pune/@18.5033237,73.9541545,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc2c20dfbd727bf:0x52ae5b3904e5a85f!8m2!3d18.5033237!4d73.9541545!16s%2Fg%2F1q6j4gv96?hl=en-US&entry=ttu">
+                            <img src="Group3.png" alt="Google Icon" class="icon-size"> <!-- Replace YOUR_IMAGE_URL with the actual URL of your image -->
+                                                                                                                                    </a>
+                                                                                    </li>
                             <li class="list-inline-item">
-                                <a target="_blank" class="instagram"
-                                    href="https://www.instagram.com/promunimofindia/"><i
-                                        class="fab fa-instagram"></i></a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a target="_blank" class="linkedin"
-                                    href="https://www.linkedin.com/company/promunim-of-india/">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
-                            </li>
+                                <a target="_blank" class="google" href="https://www.google.com/maps/place/ProMunim+of+India,+Pune/@18.5033237,73.9541545,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc2c20dfbd727bf:0x52ae5b3904e5a85f!8m2!3d18.5033237!4d73.9541545!16s%2Fg%2F1q6j4gv96?hl=en-US&entry=ttu">
+                            <img src="Group 5.png" alt="Google Icon" class="icon-size"> <!-- Replace YOUR_IMAGE_URL with the actual URL of your image -->
+                                                                                                                                    </a>
+                                                                                    </li>
+
+                         
                         </div>
                     </div>
                 </div>
@@ -20800,26 +20877,26 @@
                         <div class="hero-slider-content text-white py-5">
                             <div class="owl-carousel owl-theme client-testimonial-1 dot-indicator">
                                 <div class="item">
-                                    <h1 class="text-white" style="font-family: Comfortaa">
+                                    <h1 class="text-white" style="font-family: Comfortaa" style="font-size:36px; ">
                                         Get personalized accountant at <br>
                                         just INR 81 per day*
                                     </h1>
                                 </div>
                                 <div class="item">
-                                    <h1 class="text-white" style="font-family: Comfortaa">
+                                    <h1 class="text-white" style="font-family: Comfortaa" style="font-size:36px; ">
                                         Get original financial<br>
                                         reports at your doorsteps.
                                     </h1>
                                 </div>
                                 <div class="item">
-                                    <h1 class="text-white" style="font-family: Comfortaa">
-                                        Connect with best<br>
-                                        Acoounts and Tax advisors
+                                    <h1 class="text-white" style="font-family: Comfortaa" style="font-size:36px; ">
+                                        Connect with best Acoounts<br>
+                                        and Tax advisors
                                         at your fingertips
                                     </h1>
                                 </div>
                                 <div class="item">
-                                    <h1 class="text-white" style="font-family: Comfortaa">
+                                    <h1 class="text-white" style="font-family: Comfortaa" style="font-size:36px; ">
                                     Free financial                                        <br>
                                     Consultation at our branches.
                                     </h1>
@@ -20830,9 +20907,9 @@
                                     <li class="list-inline-item">
                                         <a href="https://promunim.com" target="_blank"
                                             class="d-flex align-items-center app-download-btn btn btn-brand-02 btn-rounded">
-                                            <span class="fab fa-apple icon-size-sm mr-3"></span>
+                                            <img src="Apple.png" alt="Apple Icon" class="icon-size-sm mr-3">
                                             <div class="download-text text-left">
-                                                <small style="font-family: Comfortaa">Download from</small>
+                                                <small style="font-family: Comfortaa" style="font-size:18px;">Download App</small>
                                                 <h5 class="mb-0" style="font-family: Comfortaa">App Store</h5>
                                             </div>
                                         </a>
@@ -20841,10 +20918,10 @@
                                         <a href="https://promunim.com"
                                             target="_blank"
                                             class="d-flex align-items-center app-download-btn btn btn-brand-02 btn-rounded">
-                                            <span class="fab fa-google-play icon-size-sm mr-3"></span>
+                                            <img src="playstore.png" alt="App store Icon" class="icon-size-sm mr-3">
                                             <div class="download-text text-left">
-                                                <small style="font-family: Comfortaa">Download from</small>
-                                                <h5 class="mb-0" style="font-family: Comfortaa">Google Play</h5>
+                                                <small style="font-family: Comfortaa" style="font-size:18px;">Download App</small>
+                                                <h5 class="mb-0" style="font-family: Comfortaa" style="font-size:18px;">Google Play</h5>
                                             </div>
                                         </a>
                                     </li>
@@ -20853,7 +20930,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-lg-6">
-                        <div class="img-wrap"> <img src="ProMunim.png" alt="app image" class="img-fluid">
+                        <div class="img-wrap"> <img src="Promunim1.png" alt="app image" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -20874,25 +20951,25 @@
                 <ul class="list-inline">
                     <li class="list-inline-item">
                         <a href="tel:18002661294" target="_blank" class="btn btn-outline-brand-02">
-                            <span style="font-family: Comfortaa">Purchase  Plans</span>
+                            <span style="font-family: Comfortaa" style="font-size:18px;">Purchase  Plans</span>
                             <img src="whatsapp.png" alt="WhatsApp Logo" class="whatsapp-logo">
                         </a>
                     </li>
                     <li class="list-inline-item">
                         <a href="tel:18002661294" target="_blank" class="btn btn-outline-brand-02">
-                            <span style="font-family: Comfortaa">Book financial Consultation</span>
+                            <span style="font-family: Comfortaa" style="font-size:18px;">Book financial Consultation</span>
                             <img src="whatsapp.png" alt="WhatsApp Logo" class="whatsapp-logo">
                         </a>
                     </li>
                     <li class="list-inline-item">
                         <a href="tel:18002661294" target="_blank" class="btn btn-outline-brand-02">
-                            <span style="font-family: Comfortaa">Become Subscriber</span>
+                            <span style="font-family: Comfortaa" style="font-size:18px;">Become Subscriber</span>
                             <img src="whatsapp.png" alt="WhatsApp Logo" class="whatsapp-logo">
                         </a>
                     </li>
                     <li class="list-inline-item">
                         <a href="tel:18002661294" target="_blank" class="btn btn-outline-brand-02">
-                            <span style="font-family: Comfortaa">Book Meeting</span>
+                            <span style="font-family: Comfortaa" style="font-size:18px;">Book Meeting</span>
                             <img src="whatsapp.png" alt="WhatsApp Logo" class="whatsapp-logo">
                         </a>
                     </li>
@@ -20911,7 +20988,7 @@
                     </div>
                     <div class="col-lg-12 col-md-10 text-center">
                         <div class="text-center" style="font-family: Comfortaa">
-                            <p>
+                            <p style="font-size: 16px;">
                                 For the first time in the history of India, people will be offered 24/7 healthcare
                                 services virtual &
                                 in-person covering all health-related issues
@@ -20925,15 +21002,15 @@
                             <div class="card-body">
                                 <div class="pt-2 pb-3 text-center" style="font-family: Comfortaa">
                                     <h3 style="font-family: Comfortaa">
-                                        <img src="individual.png" alt="Employers" style="max-width:40px;">
+                                        <img src="individual.png" alt="Employers" style="max-width:40px;" style="font-size:21px;">
                                         Individual 
                                     </h3>
                                     <p>&nbsp;</p>
-                                    <p class="mb-0">Subscribe/ Become Member @ 1 INR/day</p>
+                                    <p class="mb-0" style="font-size: 16px;">Subscribe/ Become Member @ 1 INR/day</p>
                                 </div>
                                 <div class="action-btns mt-4 text-center"> <a href="SubScriptionRequest.html"
-                                        target="_blank" class="btn btn-brand-02 mr-3"
-                                        style="font-family: Comfortaa">Subscribe now</a> </div>
+                                        target="_blank" class="btnr mr-3"
+                                        style="font-family: Comfortaa" style="font-size:18px;">Register Now</a> </div>
                             </div>
                         </div>
                     </div>
@@ -20942,17 +21019,17 @@
                             <div class="card-body">
                                 <div class="pt-2 pb-3 text-center" style="font-family: Comfortaa">
                                     <h3 style="font-family: Comfortaa"><img src="corporate.png" alt="Employers"
-                                            style="max-width:40px;">
+                                            style="max-width:40px;" style="font-size:21px;">
                                         Employers</h3>
                                     <p></p>
-                                    <p class="mb-0" style="font-family: Comfortaa">
+                                    <p class="mb-0" style="font-family: Comfortaa" style="font-size: 16px;">
                                         Discover our wellness, savings, and high-quality care options to create the
                                         ideal plan
                                         for your company.
                                     </p>
                                 </div>
                                 <div class="action-btns mt-4 text-center"> <a href="comingsoon.html" title="Coming Soon"
-                                        class="btn btn-brand-02 mr-3" style="font-family: Comfortaa">Sign Up</a> </div>
+                                        class="btnr-1 mr-3" style="font-family: Comfortaa" style="font-size:18px;">Client Web Portal</a> </div>
                             </div>
                         </div>
                     </div>
@@ -20981,17 +21058,17 @@
                                 <div class="pb-2 text-center"> <span
                                         class="fas fa-cubes icon-size-lg color-primary"></span> </div>
                                 <div class="pt-2 pb-3">
-                                    <h5 class="text-center" style="font-family: Comfortaa">Start Franchise Store</h5>
+                                    <h5 class="text-center" style="font-family: Comfortaa" style="font-size:21px;">Start Franchise Store</h5>
                                     <ul class="check-list-wrap list-one-col py-3">
-                                        <li style="font-family: Comfortaa">Do you have space? Or just money? But don't
+                                        <li style="font-family: Comfortaa" style="font-size: 16px;">Do you have space? Or just money? But don't
                                             know where to invest? </li>
-                                        <li style="font-family: Comfortaa">Invest and start your own business with us.
+                                        <li style="font-family: Comfortaa" style="font-size: 16px;">Invest and start your own business with us.
                                         </li>
-                                        <li style="font-family: Comfortaa">Investment (10 Lakhs to 80 Lakhs)</li>
+                                        <li style="font-family: Comfortaa" style="font-size: 16px;">Investment (10 Lakhs to 80 Lakhs)</li>
                                     </ul>
                                     <div class="action-btns mt-4 text-center">
                                         <a href="#" target="_blank" class="btn btn-outline-brand-02"
-                                            style="font-family: Comfortaa">Know More</a>
+                                            style="font-family: Comfortaa" style="font-size:18px;">Learn More</a>
                                     </div>
                                 </div>
                             </div>
@@ -21004,8 +21081,8 @@
                                     <span class="fas fa-business-time icon-size-lg color-primary"></span>
                                 </div>
                                 <div class="pt-2 pb-3">
-                                    <h5 class="text-center" style="font-family: Comfortaa">Providers</h5>
-                                    <ul class="check-list-wrap list-one-col py-3">
+                                    <h5 class="text-center" style="font-family: Comfortaa" style="font-size:21px;">Providers</h5>
+                                    <ul class="check-list-wrap list-one-col py-3" style="font-size: 16px;">
                                         <li style="font-family: Comfortaa">Are you a Doctor / Clinic / Pharmacy / Lab /
                                             Gym?</li>
                                         <li style="font-family: Comfortaa">
@@ -21016,7 +21093,7 @@
                                     </ul>
                                     <div class="action-btns mt-4 text-center">
                                         <a href="/Providers" class="btn btn-outline-brand-02"
-                                            style="font-family: Comfortaa">Know More</a>
+                                            style="font-family: Comfortaa" style="font-size:18px;">Learn More</a>
                                     </div>
                                 </div>
                             </div>
@@ -21028,8 +21105,8 @@
                                 <div class="pb-2 text-center"> <span
                                         class="fas fa-bullseye icon-size-lg color-primary"></span> </div>
                                 <div class="pt-2 pb-3">
-                                    <h5 class="text-center" style="font-family: Comfortaa">Become TSE</h5>
-                                    <ul class="check-list-wrap list-one-col py-3">
+                                    <h5 class="text-center" style="font-family: Comfortaa" style="font-size:21px;">Become TSE</h5>
+                                    <ul class="check-list-wrap list-one-col py-3" style="font-size: 16px;">
                                         <li style="font-family: Comfortaa">Be with your family and become Entrepreneur
                                             with us</li>
                                         <li style="font-family: Comfortaa">It's pin code wise lifetime opportunity</li>
@@ -21038,8 +21115,7 @@
                                     </ul>
                                     <div class="action-btns mt-4 text-center">
                                         <a target="_blank" href="/Home-AgentRegistration"
-                                            class="btn btn-outline-brand-02" style="font-family: Comfortaa">Know
-                                            More</a>
+                                            class="btn btn-outline-brand-02" style="font-family: Comfortaa" style="font-size:18px;">Learn More</a>
                                     </div>
                                 </div>
                             </div>
@@ -21058,7 +21134,7 @@
                     <div class="col-md-10 col-lg-10">
                         <div class="section-heading text-center mb-5" style="font-family: Comfortaa">
                             <h3 style="font-family: Comfortaa">Our Services</h3>
-                            <p class="text-muted para-desc mb-0 mx-auto" style="font-family: Comfortaa">Treating every
+                            <p class="text-muted para-desc mb-0 mx-auto" style="font-family: Comfortaa" style="font-size: 16px;">Treating every
                                 client like family.</p>
                         </div>
                     </div>
@@ -21069,7 +21145,7 @@
                     <div class="col-md-12 col-lg-8">
                         <div class="feature-contents section-heading" style="font-family: Comfortaa">
                             <h5 style="font-family: Comfortaa">Extraordinary service for extraordinary People.</h5>
-                            <ul class="check-list-wrap list-two-col py-3">
+                            <ul class="check-list-wrap list-two-col py-3" style="font-size: 16px;">
                                 <li>Doctor Consultation</li>
                                 <li>Medicine Delivery</li>
                                 <li>IPD Services</li>
@@ -21082,12 +21158,12 @@
                             </ul>
                             <div class="action-btns mt-4">
                                 <a href="https://promunim.com/" target="_blank"
-                                    class="btn btn-brand-02 mr-3" style="font-family: Comfortaa">Get Start Now</a>
+                                    class="btn-12 mr-3" style="font-family: Comfortaa" style="font-size:18px;">Buy Now</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-12">
-                        <img src="ProMunim.png" class="img-fluid mx-auto d-lg-block d-none" alt="app screen">
+                    <div class="col-lg-3 col-md-4 col-12" >
+                        <img src="Promunim2.png" class="img-fluid-2 mx-auto d-lg-block d-none" style="margin-left: -50px;" alt="app screen">
                     </div>
                 </div>
 
@@ -21103,17 +21179,17 @@
                 <div class="row justify-content-center">
                     <div class="col-md-9 col-lg-8">
                         <div class="section-heading text-center mb-1 text-white">
-                            <h2 class="text-white" style="font-family: Comfortaa">Download Our Apps</h2>
-                            <p style="font-family: Comfortaa">Download our APP and enjoy our services....</p>
+                            <h2 class="text-white" style="font-family: Comfortaa" style="font-size:18px;">Download Our Apps</h2>
+                            <p style="font-family: Comfortaa" style="font-size: 16px;">Download our APP and enjoy our services....</p>
                             <div class="action-btns">
                                 <ul class="list-inline">
                                     <li class="list-inline-item my-2">
                                         <a href="https://promunim.com/" target="_blank"
                                             class="d-flex align-items-center app-download-btn btn btn-brand-02 btn-rounded">
-                                            <span class="fab fa-apple icon-size-sm mr-3"></span>
+                                            <img src="playstore.png" alt="app store Icon" class="icon-size-sm mr-3">
                                             <div class="download-text text-left">
-                                                <small style="font-family: Comfortaa">Download from</small>
-                                                <h5 class="mb-0" style="font-family: Comfortaa">App Store</h5>
+                                                <small style="font-family: Comfortaa" style="font-size:18px;">Download App</small>
+                                                <h5 class="mb-0" style="font-family: Comfortaa" style="font-size:18px;">App Store</h5>
                                             </div>
                                         </a>
                                     </li>
@@ -21121,10 +21197,10 @@
                                         <a href="https://promunim.com/"
                                             target="_blank"
                                             class="d-flex align-items-center app-download-btn btn btn-brand-02 btn-rounded">
-                                            <span class="fab fa-google-play icon-size-sm mr-3"></span>
+                                            <img src="Apple.png" alt="Apple Icon" class="icon-size-sm mr-3">
                                             <div class="download-text text-left">
-                                                <small style="font-family: Comfortaa">Download from</small>
-                                                <h5 class="mb-0" style="font-family: Comfortaa">Google Play</h5>
+                                                <small style="font-family: Comfortaa" style="font-size:18px;">Download App</small>
+                                                <h5 class="mb-0" style="font-family: Comfortaa" style="font-size:18px;">Google Play</h5>
                                             </div>
                                         </a>
                                     </li>
@@ -21156,28 +21232,28 @@
                         <div class="single-video-feedback text-center my-3">
                             <iframe width="100%" height="200" src="https://www.youtube.com/embed/Nb7-QAGJYC0"
                                 frameborder="0" allowfullscreen></iframe>
-                            <p style="font-family: Comfortaa">Customer Review</p>
+                            <p style="font-family: Comfortaa" style="font-size: 16px;">Customer Review</p>
                         </div>    
                     </div>
                     <div class="col-md-3">
                         <div class="single-video-feedback text-center my-3">
                             <iframe width="100%" height="200" src="https://www.youtube.com/embed/bhaZ15Z-YTQ"
                                 frameborder="0" allowfullscreen></iframe>
-                            <p style="font-family: Comfortaa">Franchise Owner Review</p>
+                            <p style="font-family: Comfortaa" style="font-size: 16px;">Franchise Owner Review</p>
                         </div>                                          
                     </div>
                     <div class="col-md-3">
                         <div class="single-video-feedback text-center my-3">
                             <iframe width="100%" height="200" src="https://www.youtube.com/embed/6KLxUZTDOXk"
                                 frameborder="0" allowfullscreen></iframe>
-                            <p style="font-family: Comfortaa">About ProMunim</p>
+                            <p style="font-family: Comfortaa" style="font-size: 16px;">About ProMunim</p>
                         </div>                                             
                     </div>
                     <div class="col-md-3">
                         <div class="single-video-feedback text-center my-3">
                             <iframe width="100%" height="200" src="https://www.youtube.com/embed/RCs5tHuieK0"
                                 frameborder="0" allowfullscreen></iframe>
-                            <p style="font-family: Comfortaa">Association Review</p>
+                            <p style="font-family: Comfortaa" style="font-size: 16px;">Association Review</p>
                         </div>                                       
                     </div>
                 </div>
@@ -21190,7 +21266,7 @@
                 <div class="row justify-content-center">
                     <div class="col-md-8">
                         <div class="section-heading text-center mb-2">
-                            <h3 style="font-family: Comfortaa">Get Connected</h3>
+                            <h3 style="font-family: Comfortaa" style="font-size: 16px;">Get Connected</h3>
                         </div>
                     </div>
                 </div>
@@ -21198,49 +21274,49 @@
                     <div class="col-md-6 col-lg-3">
                         <div class="single-social-team-wrap bg-white text-center border rounded p-4 my-3">
                             <div class="social-image">
-                                <img src="https://partner.taskarmall.com/public/uploads/social/pinterest.png"
+                                <img src="instra.png"
                                     alt="team image" class="img-fluid">
                             </div>
                             <div class="action-btns mt-4">
-                                <a href="https://www.instagram.com/promunimofindia/" class="btn btn-brand-02 mr-3"
-                                    target="_blank" style="font-family: Comfortaa">Instagram</a>
+                                <a href="https://www.instagram.com/promunimofindia/" class="btn1-02 mr-3"
+                                    target="_blank" style="font-family: Comfortaa" style="font-size:18px;">Instagram</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <div class="single-social-team-wrap bg-white text-center border rounded p-4 my-3">
                             <div class="social-image">
-                                <img src="https://partner.taskarmall.com/public/uploads/social/1.png" alt="team image"
+                                <img src="facebook1.png" alt="team image"
                                     class="img-fluid">
                             </div>
                             <div class="action-btns mt-4">
-                                <a href="https://www.facebook.com/ProMunim.of.India" class="btn btn-brand-02 mr-3"
-                                    target="_blank" style="font-family: Comfortaa">Facebook</a>
+                                <a href="https://www.facebook.com/ProMunim.of.India" class="btn1-02 mr-3"
+                                    target="_blank" style="font-family: Comfortaa" style="font-size:18px;">Facebook</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <div class="single-social-team-wrap bg-white text-center border rounded p-4 my-3">
                             <div class="social-image">
-                                <img src="https://partner.taskarmall.com/public/uploads/social/2.png" alt="team image"
+                                <img src="youtube.png" alt="team image"
                                     class="img-fluid">
                             </div>
                             <div class="action-btns mt-4">
-                                <a href="https://www.youtube.com/@promunimofindia8/featured" class="btn btn-brand-02 mr-3" target="_blank"
-                                    style="font-family: Comfortaa">Youtube</a>
+                                <a href="https://www.youtube.com/@promunimofindia8/featured" class="btn1-02 mr-3" target="_blank"
+                                    style="font-family: Comfortaa" style="font-size:18px;">Youtube</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <div class="single-social-team-wrap bg-white text-center border rounded p-4 my-3">
                             <div class="social-image">
-                                <img src="https://partner.taskarmall.com/public/uploads/social/linkedin.png"
+                                <img src="linkd.png"
                                     alt="team image" class="img-fluid">
                             </div>
                             <div class="action-btns mt-4">
                                 <a href="https://www.linkedin.com/company/promunim-of-india/"
-                                    class="btn btn-brand-02 mr-3" target="_blank"
-                                    style="font-family: Comfortaa">LinkedIn</a>
+                                    class="btn1-02 mr-3" target="_blank"
+                                    style="font-family: Comfortaa" style="font-size:18px;">LinkedIn</a>
                             </div>
                         </div>
                     </div>
@@ -21253,7 +21329,7 @@
                 <div class="row justify-content-center">
                     <div class="col-md-8">
                         <div class="section-heading text-center mb-5">
-                            <h3 style="font-family: Comfortaa">Our Valuable Partners</h3>
+                            <h3 style="font-family: Comfortaa;">Our Valuable Partners</h3>
                         </div>
                     </div>
                 </div>
@@ -21380,12 +21456,12 @@
             <div class="row newsletter-wrap primary-bg rounded shadow-lg p-5">
                 <div class="col-md-6 col-lg-7 mb-4 mb-md-0 mb-sm-4 mb-lg-0">
                     <div class="newsletter-content text-white">
-                        <h3 class="mb-0 text-white" style="font-family: Comfortaa">Subscribe our Newsletter</h3>
+                        <h3 class="mb-0 text-white" style="font-family: Comfortaa;" style="font-size:14px;">Subscribe our Newsletter</h3>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-5">
                     <form class="newsletter-form position-relative">
-                        <input type="text" class="input-newsletter form-control" style="font-family: Comfortaa"
+                        <input type="text" class="input-newsletter form-control" style="font-family: Comfortaa;"
                             placeholder="Enter your email" name="email" required autocomplete="off">
                         <button type="submit" class="disabled"><i class="fas fa-paper-plane"></i></button>
                     </form>
@@ -21398,37 +21474,44 @@
                 <div class="col-sm-12 col-md-4 col-lg-6">
                     <a href="#" class="navbar-brand mb-2"> <img src="logo-06.png" alt="logo" class="img-fluid-1"> </a>
                     <br>
-                    <p style="font-family: Comfortaa">It is World's & India's 1st healthcare mall so off course it is
+                    <p style="font-family: Comfortaa" style="font-size:14px;">It is World's & India's 1st healthcare mall so off course it is
                         new and has no prior malls in
                         country</p>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3">
-                    <h6 class="text-uppercase" style="font-family: Comfortaa">Quick Links</h6>
+                    <h6 class="text-uppercase" style="font-family: Comfortaa;" style="font-size:14px;">Quick Links</h6>
                     <ul>
-                        <li><a href="contact-us.html" class="page-scroll" style="font-family: Comfortaa">Support</a>
+                        <li><a href="contact-us.html" class="page-scroll" style="font-family: Comfortaa;" style="font-size:14px;">Support</a>
                         </li>
-                        <li><a href="career.html" class="page-scroll">Career</a></li>
+                        <li><a href="career.html" class="page-scroll" style="font-size:14px;">Career</a></li>
                         <li><a href="https://promunim.com/contact-us" target="_blank" class="page-scroll"
-                                style="font-family: Comfortaa">Rent Your
+                                style="font-family: Comfortaa" style="font-size:14px;">Rent Your
                                 Property</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-6 col-md-3 col-lg-3 ">
-                    <h6 class="text-uppercase" style="font-family: Comfortaa">Follow Us</h6>
+                    <h6 class="text-uppercase" style="font-family: Comfortaa;" style="font-size:14px;">Connect with Us</h6>
                     <div class="list-inline social-list-default background-color social-hover-2 mt-2">
-                        <li class="list-inline-item"><a target="_blank" class="google"
-                                href="https://www.google.com/maps/place/ProMunim+of+India,+Pune/@18.5033237,73.9541545,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc2c20dfbd727bf:0x52ae5b3904e5a85f!8m2!3d18.5033237!4d73.9541545!16s%2Fg%2F1q6j4gv96?hl=en-US&entry=ttu"><i class="fab fa-google"></i></a></li>
-                        <li class="list-inline-item"><a target="_blank" class="youtube"
-                                href="https://www.youtube.com/channel/UCouPKU1gIzpwV6eQLKdrwAw"><i class="fab fa-youtube"></i></a></li>
-                        <li class="list-inline-item"><a target="_blank" class="facebook"
-                                href="https://www.facebook.com/ProMunim.of.India"><i class="fab fa-facebook-square"></i></a>
-                        </li>
-                        <li class="list-inline-item"><a target="_blank" class="instagram"
-                                href="https://www.instagram.com/promunimofindia/"><i
-                                    class="fab fa-instagram"></i></a></li>
-                        <li class="list-inline-item"><a target="_blank" class="linkedin"
-                                href="https://www.linkedin.com/company/promunim-of-india/"><i
-                                    class="fab fa-linkedin-in"></i></a></li>
+                        <li class="list-inline-item">
+                                <a target="_blank" class="google" href="https://www.google.com/maps/place/ProMunim+of+India,+Pune/@18.5033237,73.9541545,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc2c20dfbd727bf:0x52ae5b3904e5a85f!8m2!3d18.5033237!4d73.9541545!16s%2Fg%2F1q6j4gv96?hl=en-US&entry=ttu">
+                            <img src="Group 1.png" alt="Google Icon" class="icon-size"> <!-- Replace YOUR_IMAGE_URL with the actual URL of your image -->
+                                                                                                                                    </a>
+                                                                                    </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" class="google" href="https://www.google.com/maps/place/ProMunim+of+India,+Pune/@18.5033237,73.9541545,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc2c20dfbd727bf:0x52ae5b3904e5a85f!8m2!3d18.5033237!4d73.9541545!16s%2Fg%2F1q6j4gv96?hl=en-US&entry=ttu">
+                            <img src="Group2.png" alt="Google Icon" class="icon-size"> <!-- Replace YOUR_IMAGE_URL with the actual URL of your image -->
+                                                                                                                                    </a>
+                                                                                    </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" class="google" href="https://www.google.com/maps/place/ProMunim+of+India,+Pune/@18.5033237,73.9541545,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc2c20dfbd727bf:0x52ae5b3904e5a85f!8m2!3d18.5033237!4d73.9541545!16s%2Fg%2F1q6j4gv96?hl=en-US&entry=ttu">
+                            <img src="Group3.png" alt="Google Icon" class="icon-size"> <!-- Replace YOUR_IMAGE_URL with the actual URL of your image -->
+                                                                                                                                    </a>
+                                                                                    </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" class="google" href="https://www.google.com/maps/place/ProMunim+of+India,+Pune/@18.5033237,73.9541545,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc2c20dfbd727bf:0x52ae5b3904e5a85f!8m2!3d18.5033237!4d73.9541545!16s%2Fg%2F1q6j4gv96?hl=en-US&entry=ttu">
+                            <img src="Group 5.png" alt="Google Icon" class="icon-size"> <!-- Replace YOUR_IMAGE_URL with the actual URL of your image -->
+                                                                                                                                    </a>
+                                                                                    </li>
                     </div>
                 </div>
             </div>
@@ -21441,7 +21524,7 @@
             <div class="row">
                 <div class="col-md-6 col-lg-7">
                     <div class="copyright-wrap small-text">
-                        <p class="mb-0" style="font-family: Comfortaa">&copy; 2024 IBG infotech, All rights reserved
+                        <p class="mb-0" style="font-family: Comfortaa;" style="font-size:14px;">&copy; 2024 IBG infotech, All rights reserved
                         </p>
                     </div>
                 </div>
@@ -21449,13 +21532,13 @@
                     <div class="terms-policy-wrap text-lg-right text-md-right text-left">
                         <ul class="list-inline">
                             <li class="list-inline-item"><a class="small-text" href="termsandcondition.html"
-                                    style="font-family: Comfortaa">Terms &
+                                    style="font-family: Comfortaa;" style="font-size:14px;">Terms &
                                     Conditions</a></li>
                             <li class="list-inline-item"><a class="small-text" href="return-policy.html"
-                                    style="font-family: Comfortaa">Return Policy</a>
+                                    style="font-family: Comfortaa;" style="font-size:14px;">Return Policy</a>
                             </li>
                             <li class="list-inline-item"><a class="small-text" href="privacy-policy.html"
-                                    style="font-family: Comfortaa">Privacy Policy</a>
+                                    style="font-family: Comfortaa;" style="font-size:14px;">Privacy Policy</a>
                             </li>
                         </ul>
                     </div>

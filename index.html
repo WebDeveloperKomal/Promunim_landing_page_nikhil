@@ -3184,7 +3184,8 @@
         [image-overlay]:before {
             position: absolute;
             content: '';
-            background: linear-gradient(100deg, #11ef57, #3bb161); !important;
+            background: linear-gradient(100deg, #11ef57, #3bb161);
+            !important;
             width: 100%;
             height: 100%;
             top: 0;
@@ -4497,6 +4498,11 @@
             color: #fff;
             background-color: rgba(255, 255, 255, .075)
         }
+        .check-1-list-wrap li {
+        color: #3bb161;
+    }
+    
+
 
         @media(max-width:575.98px) {
             .table-responsive-sm {
@@ -12967,6 +12973,78 @@
             -webkit-transition: all .5s;
             transition: all .5s
         }
+        .check-1-list-wrap {
+            margin-top: -.5em;
+            margin-bottom: -.5em
+        }
+
+        .check-1-list-wrap li {
+            position: relative;
+            padding: .5rem 0 .5rem 1.875rem;
+            line-height: inherit
+        }
+
+        .check-1-list-wrap li span {
+            font-weight: 600;
+            font-family: montserrat, sans-serif
+        }
+
+        .check-1-list-wrap li:before {
+            position: absolute;
+            top: 10px;
+            left: 0;
+            font-family: "font awesome 5 free";
+            content: "\f058";
+            font-weight: 900;
+            font-size: 16px;
+            line-height: 1.5rem;
+            color: #383434;
+        }
+
+        .check-1-list-wrap.list-1-two-col {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap
+        }
+
+        .check-1-list-wrap.list-1-two-col li {
+            -webkit-box-flex: 1;
+            -ms-flex: 1 1 50%;
+            flex: 1 1 50%;
+            max-width: 50%;
+            padding-right: 15px
+        }
+
+        .list-with-icon li .list-icon-box {
+            height: 65px;
+            width: 65px;
+            color: #e91d23;
+            margin-bottom: 0
+        }
+
+        .dot-circle li {
+            position: relative;
+            list-style: none;
+            padding-left: 25px;
+            margin-bottom: 10px
+        }
+
+        .dot-circle li:before {
+            content: "";
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            left: 0;
+            top: 14px;
+            background: #b5181b;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            -webkit-transition: all .5s;
+            transition: all .5s
+        }
 
         @media(min-width:320px) and (max-width:767px) {
             .list-tow-col li {
@@ -20890,13 +20968,16 @@
                         <li>
                             <a href="#" class="dropdown-toggle" style="font-family: Comfortaa"> About Us</a>
                             <ul class="sub-menu">
-                                <li style="font-family: Comfortaa"><a href="https://promunim.com/about-us">About ProMunim</a></li>
+                                <li style="font-family: Comfortaa"><a href="https://promunim.com/about-us">About
+                                        ProMunim</a></li>
                                 <li style="font-family: Comfortaa"><a href="ceo-message.html">CEO Message</a></li>
-                                <li style="font-family: Comfortaa"><a href="https://promunim.com/meet-our-team">Team</a></li>
+                                <li style="font-family: Comfortaa"><a href="https://promunim.com/meet-our-team">Team</a>
+                                </li>
                             </ul>
                         </li>
                         <li style="font-family: Comfortaa"><a href="https://promunim.com/services">Services</a> </li>
-                        <li style="font-family: Comfortaa"><a href="https://promunim.com/pricing" class="page-scroll">Pricing
+                        <li style="font-family: Comfortaa"><a href="https://promunim.com/pricing"
+                                class="page-scroll">Pricing
                                 Plans</a></li>
                         <li style="font-family: Comfortaa"><a href="https://promunim.com/">Blog </a></li>
                         <li style="font-family: Comfortaa"><a href="contact-us.html">Contact Us </a></li>
@@ -21040,7 +21121,8 @@
                     <div class="col-lg-12 col-md-10 text-center">
                         <div class="text-center" style="font-family: Comfortaa">
                             <p style="font-size: 16px;">
-                                ProMunim of India will be provided with 24/7 virtual and in-person accounting and tax services for the first time, addressing all accounting and tax-related matters
+                                ProMunim of India will be provided with 24/7 virtual and in-person accounting and tax
+                                services for the first time, addressing all accounting and tax-related matters
                             </p>
                         </div>
                     </div>
@@ -21051,16 +21133,17 @@
                             <div class="card-body">
                                 <div class="pt-2 pb-3 text-center" style="font-family: Comfortaa">
                                     <h3 style="font-family: Comfortaa">
-                                        <img src="individual.png" alt="Employers" style="max-width:40px;"
-                                            style="font-size:21px;">
-                                            Individual / Salaried 
+                                        <img src="individual.png" alt="Employers" style="max-width:40px;">
+                                        Individual / Salaried
                                     </h3>
                                     <p>&nbsp;</p>
-                                    <p class="mb-0" style="font-size: 16px;">Register Instantly / Become Member @ 81 INR/day</p>
+                                    <p class="mb-0" style="font-size: 16px;">Register Instantly / Become Member @ 81
+                                        INR/day</p>
                                 </div>
-                                <div class="action-btns mt-4 text-center"> <a href="SubScriptionRequest.html"
-                                        target="_blank" class="btnr mr-3" style="font-family: Comfortaa"
-                                        style="font-size:18px;">Register Now</a> </div>
+                                <div class="action-btns mt-4 text-center">
+                                    <a href="SubScriptionRequest.html" target="_blank" class="btnr mr-3"
+                                        style="font-family: Comfortaa; font-size:18px;">Register Now</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -21068,20 +21151,199 @@
                         <div class="card cardheight border-0 single-promo-card single-promo-hover-2 p-2 mt-4">
                             <div class="card-body">
                                 <div class="pt-2 pb-3 text-center" style="font-family: Comfortaa">
-                                    <h3 style="font-family: Comfortaa"><img src="corporate.png" alt="Employers"
-                                            style="max-width:40px;" style="font-size:21px;">
-                                            Self Employed Individual</h3>
-                                    <p></p>
-                                    <p class="mb-0" style="font-family: Comfortaa" style="font-size: 16px;">
-                                        Discover ProMunim Accounting, Tax savings, and high-quality service options to create the ideal plan for your business.
-                                    </p>
+                                    <h3 style="font-family: Comfortaa">
+                                        <img src="corporate.png" alt="Employers" style="max-width:40px;">
+                                        Self Employed Individual
+                                    </h3>
+                                    <p>&nbsp;</p>
+                                    <p class="mb-0" style="font-size: 16px;">Discover ProMunim Accounting, Tax savings,
+                                        and high-quality service options to create the ideal plan for your business.</p>
                                 </div>
-                                <div class="action-btns mt-4 text-center"> <a href="comingsoon.html" title="Coming Soon"
-                                        class="btnr-1 mr-3" style="font-family: Comfortaa"
-                                        style="font-size:18px;">Register Now</a> </div>
+                                <div class="action-btns mt-4 text-center">
+                                    <a href="SubScriptionRequest.html" target="_blank" class="btnr mr-3"
+                                        style="font-family: Comfortaa; font-size:18px;">Register Now</a>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="card cardheight border-0 single-promo-card single-promo-hover-2 p-2 mt-4">
+                            <div class="card-body">
+                                <div class="pt-2 pb-3 text-center" style="font-family: Comfortaa">
+                                    <h3 style="font-family: Comfortaa">
+                                        <img src="corporate.png" alt="Employers" style="max-width:40px;">
+                                        Sole Proprietorship Firm
+                                    </h3>
+                                    <p>&nbsp;</p>
+                                    <p class="mb-0" style="font-size: 16px;">
+                                        Discover ProMunim Accounting, Tax savings, and high-quality service options to
+                                        create the ideal plan for your business. </p>
+                                </div>
+                                <div class="action-btns mt-4 text-center">
+                                    <a href="comingsoon.html" title="Coming Soon" class="btnr-1 mr-3"
+                                        style="font-family: Comfortaa; font-size:18px;">Register Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="card cardheight border-0 single-promo-card single-promo-hover-2 p-2 mt-4">
+                            <div class="card-body">
+                                <div class="pt-2 pb-3 text-center" style="font-family: Comfortaa">
+                                    <h3 style="font-family: Comfortaa">
+                                        <img src="corporate.png" alt="Employers" style="max-width:40px;">
+                                        Partnership Firm (Act 1932)
+                                    </h3>
+                                    <p>&nbsp;</p>
+                                    <p class="mb-0" style="font-size: 16px;">
+                                        Discover ProMunim Accounting, Tax savings, and high-quality service options to
+                                        create the ideal plan for your business. </p>
+                                </div>
+                                <div class="action-btns mt-4 text-center">
+                                    <a href="comingsoon.html" title="Coming Soon" class="btnr-1 mr-3"
+                                        style="font-family: Comfortaa; font-size:18px;">Register Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="card cardheight border-0 single-promo-card single-promo-hover-2 p-2 mt-4">
+                            <div class="card-body">
+                                <div class="pt-2 pb-3 text-center" style="font-family: Comfortaa">
+                                    <h3 style="font-family: Comfortaa">
+                                        <img src="corporate.png" alt="Employers" style="max-width:40px;">
+                                        Limited Liability Partnership Firm
+                                    </h3>
+                                    <p>&nbsp;</p>
+                                    <p class="mb-0" style="font-size: 16px;">Discover ProMunim Accounting, Tax savings,
+                                        and high-quality service options to create the ideal plan for your business.</p>
+                                </div>
+                                <div class="action-btns mt-4 text-center">
+                                    <a href="SubScriptionRequest.html" target="_blank" class="btnr mr-3"
+                                        style="font-family: Comfortaa; font-size:18px;">Register Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="card cardheight border-0 single-promo-card single-promo-hover-2 p-2 mt-4">
+                            <div class="card-body">
+                                <div class="pt-2 pb-3 text-center" style="font-family: Comfortaa">
+                                    <h3 style="font-family: Comfortaa">
+                                        <img src="corporate.png" alt="Employers" style="max-width:40px;">
+                                        Private Limited Company
+                                    </h3>
+                                    <p>&nbsp;</p>
+                                    <p class="mb-0" style="font-size: 16px;">Discover ProMunim Accounting, Tax savings,
+                                        and high-quality service options to create the ideal plan for your business.</p>
+                                </div>
+                                <div class="action-btns mt-4 text-center">
+                                    <a href="SubScriptionRequest.html" target="_blank" class="btnr mr-3"
+                                        style="font-family: Comfortaa; font-size:18px;">Register Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="card cardheight border-0 single-promo-card single-promo-hover-2 p-2 mt-4">
+                            <div class="card-body">
+                                <div class="pt-2 pb-3 text-center" style="font-family: Comfortaa">
+                                    <h3 style="font-family: Comfortaa">
+                                        <img src="corporate.png" alt="Employers" style="max-width:40px;">
+                                        Public Limited Company
+                                    </h3>
+                                    <p>&nbsp;</p>
+                                    <p class="mb-0" style="font-size: 16px;">
+                                        Discover ProMunim Accounting, Tax savings, and high-quality service options to
+                                        create the ideal plan for your business. </p>
+                                </div>
+                                <div class="action-btns mt-4 text-center">
+                                    <a href="comingsoon.html" title="Coming Soon" class="btnr-1 mr-3"
+                                        style="font-family: Comfortaa; font-size:18px;">Register Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="card cardheight border-0 single-promo-card single-promo-hover-2 p-2 mt-4">
+                            <div class="card-body">
+                                <div class="pt-2 pb-3 text-center" style="font-family: Comfortaa">
+                                    <h3 style="font-family: Comfortaa">
+                                        <img src="corporate.png" alt="Employers" style="max-width:40px;">
+                                        Other Companies ( OPC, Nidhi, Section 8)
+                                    </h3>
+                                    <p>&nbsp;</p>
+                                    <p class="mb-0" style="font-size: 16px;">
+                                        Discover ProMunim Accounting, Tax savings, and high-quality service options to
+                                        create the ideal plan for your business. </p>
+                                </div>
+                                <div class="action-btns mt-4 text-center">
+                                    <a href="comingsoon.html" title="Coming Soon" class="btnr-1 mr-3"
+                                        style="font-family: Comfortaa; font-size:18px;">Register Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="card cardheight border-0 single-promo-card single-promo-hover-2 p-2 mt-4">
+                            <div class="card-body">
+                                <div class="pt-2 pb-3 text-center" style="font-family: Comfortaa">
+                                    <h3 style="font-family: Comfortaa">
+                                        <img src="corporate.png" alt="Employers" style="max-width:40px;">
+                                        Trust, Association, Society, Club
+                                    </h3>
+                                    <p>&nbsp;</p>
+                                    <p class="mb-0" style="font-size: 16px;">Discover ProMunim Accounting, Tax savings,
+                                        and high-quality service options to create the ideal plan for your business.</p>
+                                </div>
+                                <div class="action-btns mt-4 text-center">
+                                    <a href="SubScriptionRequest.html" target="_blank" class="btnr mr-3"
+                                        style="font-family: Comfortaa; font-size:18px;">Register Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="card cardheight border-0 single-promo-card single-promo-hover-2 p-2 mt-4">
+                            <div class="card-body">
+                                <div class="pt-2 pb-3 text-center" style="font-family: Comfortaa">
+                                    <h3 style="font-family: Comfortaa">
+                                        <img src="corporate.png" alt="Employers" style="max-width:40px;">
+                                        Hindu Undivided Family (HUF)
+                                    </h3>
+                                    <p>&nbsp;</p>
+                                    <p class="mb-0" style="font-size: 16px;">Discover ProMunim Accounting, Tax savings,
+                                        and high-quality service options to create the ideal plan for your business.</p>
+                                </div>
+                                <div class="action-btns mt-4 text-center">
+                                    <a href="SubScriptionRequest.html" target="_blank" class="btnr mr-3"
+                                        style="font-family: Comfortaa; font-size:18px;">Register Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="card cardheight border-0 single-promo-card single-promo-hover-2 p-2 mt-4">
+                            <div class="card-body">
+                                <div class="pt-2 pb-3 text-center" style="font-family: Comfortaa">
+                                    <h3 style="font-family: Comfortaa">
+                                        <img src="corporate.png" alt="Employers" style="max-width:40px;">
+                                        Any Other Entity
+                                    </h3>
+                                    <p>&nbsp;</p>
+                                    <p class="mb-0" style="font-size: 16px;">
+                                        Discover ProMunim Accounting, Tax savings, and high-quality service options to
+                                        create the ideal plan for your business.</p>
+                                </div>
+                                <div class="action-btns mt-4 text-center">
+                                    <a href="comingsoon.html" title="Coming Soon" class="btnr-1 mr-3"
+                                        style="font-family: Comfortaa; font-size:18px;">Register Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
         </section>
@@ -21093,8 +21355,8 @@
                 <div class="row justify-content-center">
                     <div class="col-md-10 col-lg-8">
                         <div class="section-heading text-center">
-                            <h3 style="font-family: Comfortaa">Reach Out and Grow Together  </h3>
-                            
+                            <h3 style="font-family: Comfortaa">Reach Out and Grow Together </h3>
+
                         </div>
                     </div>
                 </div>
@@ -21108,13 +21370,17 @@
                                 <div class="pb-2 text-center"> <span
                                         class="fas fa-cubes icon-size-lg color-primary"></span> </div>
                                 <div class="pt-2 pb-3">
-                                    <h5 class="text-center" style="font-family: Comfortaa" style="font-size:21px;">Start a Franchise Business </h5>
+                                    <h5 class="text-center" style="font-family: Comfortaa" style="font-size:21px;">Start
+                                        a Franchise Business </h5>
                                     <ul class="check-list-wrap list-one-col py-3">
-                                        <li style="font-family: Comfortaa" style="font-size: 16px;">Do you have commercial space available? Or just money in hand? don't know about where to put your money? </li>
+                                        <li style="font-family: Comfortaa" style="font-size: 16px;">Do you have
+                                            commercial space available? Or just money in hand? don't know about where to
+                                            put your money? </li>
                                         <li style="font-family: Comfortaa" style="font-size: 16px;">Invest and start
                                             your own business with us.
                                         </li>
-                                        <li style="font-family: Comfortaa" style="font-size: 16px;">Join together with us to start your own business with us.</li>
+                                        <li style="font-family: Comfortaa" style="font-size: 16px;">Join together with
+                                            us to start your own business with us.</li>
                                     </ul>
                                     <div class="action-btns mt-4 text-center">
                                         <a href="#" target="_blank" class="btn btn-outline-brand-02"
@@ -21134,10 +21400,13 @@
                                     <h5 class="text-center" style="font-family: Comfortaa" style="font-size:21px;">
                                         Associate with us</h5>
                                     <ul class="check-list-wrap list-one-col py-3" style="font-size: 16px;">
-                                        <li style="font-family: Comfortaa">Are you a Chartered Accountant / Financial Planners / Forensic Accountants / Auditors / Payroll Accountants?
-</li>
+                                        <li style="font-family: Comfortaa">Are you a Chartered Accountant / Financial
+                                            Planners / Forensic Accountants / Auditors / Payroll Accountants?
+                                        </li>
                                         <li style="font-family: Comfortaa">
-                                            Associate with ProMunim of India , and together we can ensure that clients have access to the high-quality service , and most efficient Accounting and Tax Service.
+                                            Associate with ProMunim of India , and together we can ensure that clients
+                                            have access to the high-quality service , and most efficient Accounting and
+                                            Tax Service.
                                         </li>
                                     </ul>
                                     <div class="action-btns mt-4 text-center">
@@ -21157,7 +21426,8 @@
                                     <h5 class="text-center" style="font-family: Comfortaa" style="font-size:21px;">
                                         Become Service Center</h5>
                                     <ul class="check-list-wrap list-one-col py-3" style="font-size: 16px;">
-                                        <li style="font-family: Comfortaa">Be with your family while we assist you in becoming an entrepreneur.</li>
+                                        <li style="font-family: Comfortaa">Be with your family while we assist you in
+                                            becoming an entrepreneur.</li>
                                         <li style="font-family: Comfortaa">1 Entrepreneur, 1 City, Lifetime Support</li>
                                         <li style="font-family: Comfortaa">Its city wise once in a lifetime opportunity.
                                         </li>
@@ -21195,20 +21465,38 @@
                     <div class="col-md-12 col-lg-8">
                         <div class="feature-contents section-heading" style="font-family: Comfortaa">
                             <h5 style="font-family: Comfortaa">A Full-Range of Service Options</h5>
-                            <ul class="check-list-wrap list-two-col py-3" style="font-size: 16px;">
-                                <li>Doctor Consultation</li>
-                                <li>Medicine Delivery</li>
-                                <li>IPD Services</li>
-                                <li>Diagnostic Services</li>
-                                <li>Mental Health </li>
-                                <li>Dental Checkup</li>
-                                <li>E-clinic Facilities</li>
-                                <li>Healthcare Financing</li>
-                                <li>Health Insurance</li>
+                            <ul class="check-1-list-wrap list-1-two-col py-3" style="font-size: 16px;">
+                                
+                                <li>Emergency Accounting <br><br>
+                                    <p class="para" style="font-size: 14px; color: #004c8f;">When Accounting and Compliance<br>emergencies happen, waiting several<br>days for an appointment with<br>a ProMunim is not an option.</p>
+                                                                               </li>
+                                
+                                <li>Accounting <br><br>
+                                    <p class="para" style="font-size: 14px; color: #004c8f;">When Accounting and Compliance<br>emergencies happen, waiting several<br>days for an appointment with<br>a ProMunim is not an option.</p>
+                                                                               </li>
+                                
+                                <li>Tax Compliance <br><br>
+                                    <p class="para" style="font-size: 14px; color: #004c8f;">When Accounting and Compliance<br>emergencies happen, waiting several<br>days for an appointment with<br>a ProMunim is not an option.</p>
+                                                                               </li>
+                                
+                                <li>Capital Management<br><br>
+                                    <p class="para" style="font-size: 14px; color: #004c8f;">Benefit from our years of expertise with<br>finance and accounting outsourcing services.</p>
+                                                                               </li>
+                                
+                                <li>Business Financial Planning <br><br>
+                                    <p class="para" style="font-size: 14px; color: #004c8f;">Benefit from our years of expertise with<br>finance and accounting outsourcing services.</p>
+                                                                               </li>
+                                
+                                <li>Additional services <br><br>
+                                    <p class="para" style="font-size: 14px; color: #004c8f;">Benefit from our years of expertise with<br>finance and accounting outsourcing services.</p>
+                                                                               </li>
+                                
+                                
+                                
                             </ul>
                             <div class="action-btns mt-4">
                                 <a href="https://promunim.com/" target="_blank" class="btn-12 mr-3"
-                                    style="font-family: Comfortaa" style="font-size:18px;">Buy Now</a>
+                                    style="font-family: Comfortaa" style="font-size:18px;">Register your Proprietorship Firm Now</a>
                             </div>
                         </div>
                     </div>
@@ -21308,7 +21596,7 @@
                         <div class="single-video-feedback text-center my-3">
                             <iframe width="100%" height="200" src="https://www.youtube.com/embed/RCs5tHuieK0"
                                 frameborder="0" allowfullscreen></iframe>
-                            <p style="font-family: Comfortaa" style="font-size: 16px;">Association Review</p>
+                            <p style="font-family: Comfortaa" style="font-size: 16px;">Associates Review</p>
                         </div>
                     </div>
                 </div>
@@ -21531,7 +21819,7 @@
                         country</p>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3">
-                    <h6 class="text-uppercase" style="font-family: Comfortaa;" style="font-size:14px;">Quick Links</h6>
+                    <h6 class="text-uppercase" style="font-family: Comfortaa;" style="font-size:14px;">QUICK LINKS</h6>
                     <ul>
                         <li><a href="contact-us.html" class="page-scroll" style="font-family: Comfortaa;"
                                 style="font-size:14px;">Support</a>
